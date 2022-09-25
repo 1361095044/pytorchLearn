@@ -23,6 +23,7 @@ class MyData(Dataset):
 
 
 if __name__ == '__main__':
+    # 图片路径
     root_dir = 'val'
     ants_label_dir = 'ants'
     bees_label_dir = 'bees'
