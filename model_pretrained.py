@@ -1,6 +1,6 @@
 import torchvision.models
 from torch.nn import Linear
-# 加载现有的模型
+# 加载现有的模型   下载到C盘去了
 vgg16_false = torchvision.models.vgg16(pretrained=False)
 vgg16_true = torchvision.models.vgg16(pretrained=True)
 
